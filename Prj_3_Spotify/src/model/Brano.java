@@ -16,7 +16,7 @@ public class Brano {
 	}
 
 	public void stampaInfo() {
-		System.out.println("autore=" + autore + ", titolo=" + titolo + ", genere=" + genere + ", durata=" + durata);;
+		System.out.println("autore= " + autore + ", titolo= " + titolo + ", genere= " + genere + ", durata= " + durata);;
 	}
 	
 	public boolean play() {
@@ -26,7 +26,7 @@ public class Brano {
 
 	@Override
 	public String toString() {
-		return "Brano [autore=" + autore + ", titolo=" + titolo + ", genere=" + genere + ", durata=" + durata + "]";
+		return "Brano [autore= " + autore + ", titolo= " + titolo + ", genere= " + genere + ", durata= " + durata + "]";
 	}
 	
 	

@@ -24,7 +24,7 @@ public class Playlist {
 	}
 	
 	public void infoPlaylist() {
-		System.out.println("Playlist: " + nome + "\n " + numeroBrani + " brani. La durata totale è di: " + durataTotale);
+		System.out.println("Playlist: " + nome + ".\nContiene: " + numeroBrani + " brani.\nLa durata totale è di: " + durataTotale + " minuti");
 		for(Brano brano: brano) {
 			brano.stampaInfo();
 		}
