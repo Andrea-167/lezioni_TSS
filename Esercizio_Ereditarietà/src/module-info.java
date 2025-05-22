@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module Esercizio_Ereditarietà {
-}
