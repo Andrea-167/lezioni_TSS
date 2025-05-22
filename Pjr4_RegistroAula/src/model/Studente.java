@@ -1,6 +1,6 @@
 package model;
 
-public class Studente implements Comparable<Studente>{
+public class Studente {
 
 	/*
 	 * nome
@@ -48,12 +48,5 @@ public class Studente implements Comparable<Studente>{
 		return "Studente [nome=" + nome + ", cognome=" + cognome + ", corso=" + corso
 				+ "]";
 	}
-
-	@Override
-	public int compareTo(Studente s) {
-		return 0;
-	}
-	
-	
 	
 }
