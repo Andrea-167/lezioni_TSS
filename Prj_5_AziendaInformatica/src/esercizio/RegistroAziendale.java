@@ -36,5 +36,14 @@ public class RegistroAziendale {
         }
     }
 	
+	public void StampaPerRuolo(Ruoli ruolo) {
+		System.out.println("----Stampa per ruolo----");
+		for (Dipendente dipendente : dipendenti) {
+			if(dipendente.ruolo.equals(ruolo)) {
+				System.out.println(dipendente);
+			}
+		}
+	}
+	
 	
 }

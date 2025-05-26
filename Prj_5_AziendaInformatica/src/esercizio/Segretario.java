@@ -3,9 +3,9 @@ package esercizio;
 public class Segretario extends Dipendente {
 
 	private String ufficio;
-	
+
 	public Segretario(String nome, String cognome, int livello, String ufficio) {
-		super(nome, cognome, livello);
+		super(nome, cognome, livello, Ruoli.Segretario);
 		this.ufficio = ufficio;
 	}
 
@@ -20,4 +20,5 @@ public class Segretario extends Dipendente {
 		System.out.println("Ruolo: Segretario, Ufficio: " + this.ufficio);
 	}
 
+	
 }

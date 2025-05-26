@@ -5,7 +5,7 @@ public class Manager extends Dipendente {
 	private String reparto;
 	
 	public Manager(String nome, String cognome, int livello, String reparto) {
-		super(nome, cognome, livello);
+		super(nome, cognome, livello, Ruoli.Manager);
 		this.reparto = reparto;
 	}
 

@@ -5,7 +5,7 @@ public class HR extends Dipendente {
 	private String areaSpecializzazione;
 
 	public HR(String nome, String cognome, int livello, String areaSpecializzazione) {
-		super(nome, cognome, livello);
+		super(nome, cognome, livello, Ruoli.HR);
 		this.areaSpecializzazione = areaSpecializzazione;
 	}
 
