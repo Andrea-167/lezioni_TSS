@@ -1,0 +1,22 @@
+.txtBlue{
+    color: blue;
+}
+.txtRed{
+    color:crimson;
+}
+
+.dimImg{
+    width: 200px;
+    height: auto;
+    border-radius: 40px;
+}
+
+table{
+    border: 2px solid black;
+}
+thead{
+    border: 2px solid black;
+}
+tbody{
+    border: 2px solid black;
+}
